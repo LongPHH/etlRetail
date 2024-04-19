@@ -1,0 +1,9 @@
+# describe dbt project
+config-version: 2
+name: 'retail'
+
+profile: 'retail'
+
+models:
+  retail:
+    materialized: table
